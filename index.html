@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My form tags</title>
+</head>
+<body>
+  <form>
+    <div>
+      <label>Name<input type="text"></label>
+    </div>
+    <div>
+      <label>Password<input type="password"></label>
+    </div>
+    <div>
+      <label>Number<input type="number"></label>
+    </div>
+    <div>
+      <label>Date<input type="date"></label>
+    </div>
+    <br><br>
+    <div>
+      <fieldset>
+        <legend>Objective goods</legend>
+        <label><input type="checkbox" checked> Goods A</label>
+        <label><input type="checkbox" checked> Goods B</label>
+        <label><input type="checkbox"> Goods C</label>
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend>Warranty</legend>
+        <label><input type="radio" name="warranty">Joined</label>
+        <label><input type="radio" name="warranty" checked>Unjoined</label>
+        <label><input type="radio" name="warranty">Unknown</label>
+      </fieldset>
+    </div>
+    <div>
+      <label>
+        Types
+        <!-- <select size="3" multiple> -->
+        <select>
+          <!-- <option>-- Select types of inquirery --</option> -->
+          <option>Goods has undelivered</option>
+          <option>Goods was broken</option>
+          <option selected>Wrong order</option>
+          <option>Change method of payment</option>
+          <option>Others</option>
+        </select>
+      </label>
+    </div>
+    <div>
+      <label>
+        Contents
+        <textarea>Hello.
+Hello.</textarea>
+      </label>
+    </div>
+    <div>
+      <button disabled>Submit</button>
+      <!-- <input type="submit" value="Submit"> -->
+    </div>
+    <div>
+      <p>Revolution</p>
+    </div>
+  </form>
+</body>
+</html>
